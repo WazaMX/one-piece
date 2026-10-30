@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Todo sobre One Piece</title>
+        <link rel="stylesheet" href="diseño.css">
+    </head>
+    <body>
+        
+        <aside class="sidebar">
+            <button class="menu-toggle" type="button" aria-expanded="true" aria-controls="menu-navegacion" aria-label="Mostrar u ocultar menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div id="menu-navegacion" class="menu-navegacion">
+                <div class="contenedor-imagen">
+                    <img src="img/one.jpg" alt="Ilustración de One Piece" class="mi-imagen">
+                </div>
+                <h1>One Piece</h1>
+                <nav>
+                    <h2>Contenido</h2>
+                    <ul>
+                        <li><a href="#autor">Autor</a></li>
+                        <li><a href="#momentos-destacados">Momentos destacados</a></li>
+                        <li><a href="#referencias">Referencias al anime</a></li>
+                        <li><a href="#homenajes">Homenajes</a></li>
+                        <li><a href="#frutas-del-diablo">Frutas del diablo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <main class="contenido-principal">
+            <section id="autor">
+                <button class="author-toggle" type="button" aria-expanded="true" aria-controls="autor-contenido" aria-label="Mostrar u ocultar ventana de autor">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div id="autor-contenido" class="autor-contenido">
+                    <h2>Autor</h2>
+                    <div class="autor-panel">
+                        <button class="descripcion-autor" type="button" aria-expanded="false" aria-controls="carrusel-autor">
+                            Eiichirō Oda, nacido en Kumamoto en 1975, es un célebre mangaka mundialmente conocido por crear One Piece (1997-presente), la obra con la que ha superado los 600 millones de copias vendidas y obtenido un Récord Guinness como el manga con mayor cantidad de ejemplares publicados por un único autor. Tras formarse como asistente de reconocidos artistas y destacar a temprana edad con obras como Wanted, Oda construyó un imperio creativo fuertemente inspirado en su pasión infantil por los piratas y en el estilo de Akira Toriyama. Casado con la exmodelo Chiaki Inaba y padre de dos hijas, divide su tiempo entre su residencia-estudio en Tokio y su fuerte compromiso con su ciudad natal a la que ayudó económicamente tras los terremotos de 2016 y donde se ha honrado su legado con estatuas de Monkey D. Luffy, consolidándose además como una de las mentes más influyentes de la era actual según la Universidad de Tokio.
+                            <span class="indicacion-carrusel">Haz clic para ver imágenes</span>
+                        </button>
+                        <div id="carrusel-autor" class="carrusel" hidden>
+                        <div class="diapositivas">
+                            <figure class="diapositiva activa">
+                                <img src="img/oda.webp" alt="Ilustración de Eiichirō Oda de niño">
+                                <figcaption>Eiichirō Oda durante su infancia.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/Eiichiro_Oda_Infobox.webp" alt="Fotografía de Eiichirō Oda">
+                                <figcaption>Eiichirō Oda, autor de One Piece.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/Eiichiro-oda.webp" alt="Retrato de Eiichirō Oda">
+                                <figcaption>Retrato del creador de One Piece.</figcaption>
+                            </figure>
+                        </div>
+                        <button class="control-carrusel anterior" type="button" aria-label="Imagen anterior">&#10094;</button>
+                        <button class="control-carrusel siguiente" type="button" aria-label="Imagen siguiente">&#10095;</button>
+                        <div class="indicadores" aria-label="Seleccionar imagen"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="momentos-destacados">
+                <h2>Momentos destacados</h2>
+                <div class="momentos-panel">
+                    <button class="descripcion-carrusel" type="button" aria-expanded="false" aria-controls="carrusel-momentos">
+                        One Piece está repleto de momentos inolvidables que combinan una profunda carga emocional y acción épica, como el desgarrador grito de auxilio de Nami pidiéndole a Luffy que la salve en Arlong Park, el clamor desesperado de Nico Robin diciendo "¡Quiero vivir!" mientras queman la bandera del Gobierno Mundial, y el impactante sacrificio de Zoro soportando todo el dolor de Luffy en Thriller Bark con su mítica frase "Nada pasó". A esto se suman puntos de inflexión trágicos y transformadores como la dolorosa muerte de Portgas D. Ace en Marineford, la emotiva despedida y cremación del barco Going Merry, y la apoteósica revelación del Gear 5 y el despertar de Luffy como el guerrero de la liberación en Wano.
+                        <span class="indicacion-carrusel">Haz clic para ver los momentos en imágenes</span>
+                    </button>
+                    <div id="carrusel-momentos" class="carrusel" hidden>
+                        <div class="diapositivas">
+                            <figure class="diapositiva activa">
+                                <img src="img/nami.jpg" alt="Nami pidiendo ayuda a Luffy en Arlong Park">
+
+                                <figcaption>Nami pide a Luffy que la ayude.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/robin.jpg" alt="Nico Robin diciendo que quiere vivir">
+                                <figcaption>Robin declara que quiere vivir.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/zoro.jpg" alt="Zoro después de soportar el dolor de Luffy">
+                                <figcaption>“Nada pasó”: el sacrificio de Zoro.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/ace.webp" alt="Ace durante la batalla de Marineford">
+                                <figcaption>La despedida de Portgas D. Ace.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/merry.webp" alt="El barco Going Merry">
+                                <figcaption>La despedida del Going Merry.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/gear 5.webp" alt="Luffy usando el Gear 5">
+                                <figcaption>El despertar del Gear 5.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/sabaody.jpg" alt="La separación de la tripulación en Sabaody">
+                                <figcaption>La separación de la tripulación en Sabaody.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/one.jpg" alt="Ilustración de One Piece">
+                                <figcaption>El espíritu de aventura de One Piece.</figcaption>
+                            </figure>
+                        </div>
+                        <button class="control-carrusel anterior" type="button" aria-label="Imagen anterior">&#10094;</button>
+                        <button class="control-carrusel siguiente" type="button" aria-label="Imagen siguiente">&#10095;</button>
+                        <div class="indicadores" aria-label="Seleccionar imagen"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="referencias">
+                <h2>Referencias al anime</h2>
+                <div class="referencias-panel">
+                    <button class="descripcion-referencias" type="button" aria-expanded="false" aria-controls="carrusel-referencias">
+                        En distintos animes aparecen guiños y referencias a One Piece, desde parodias y homenajes hasta personajes reconocibles para los fans. En el episodio 1 de Himouto! Umaru-chan, por ejemplo, Umaru sostiene un peluche idéntico a Tony Tony Chopper mientras intenta ocultar su verdadera faceta de fanática del manga. Explora el carrusel para ver esta y otras referencias.
+                        <span class="indicacion-carrusel">Haz clic para ver las referencias en imágenes</span>
+                    </button>
+                    <div id="carrusel-referencias" class="carrusel" hidden>
+                        <div class="diapositivas">
+                            <figure class="diapositiva activa">
+                                <img src="img/simpson.jpg" alt="Referencia a One Piece en Los Simpson">
+                                <figcaption>Una referencia a One Piece en Los Simpson.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/titanes.webp" alt="Referencia a One Piece en Ataque de los Titanes">
+                                <figcaption>Un guiño a One Piece en Ataque de los Titanes.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/referencia zoro.jpg" alt="Referencia a Zoro">
+                                <figcaption>Homenaje a Zoro y sus espadas.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/referencia.jpg" alt="Referencia a One Piece">
+                                <figcaption>Otra referencia al universo de One Piece.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/one piece.jpg" alt="Referencia a One Piece">
+                                <figcaption>Un reconocimiento directo a One Piece.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/inuyasha.jpg" alt="Referencia a One Piece en Inuyasha">
+                                <figcaption>Un guiño a One Piece en Inuyasha.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/chopper.webp" alt="Referencia a Tony Tony Chopper">
+                                <figcaption>La referencia a Tony Tony Chopper.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/naruto-5284479.jpg" alt="Referencia a One Piece en Naruto">
+                                <figcaption>Un guiño a One Piece en Naruto.</figcaption>
+                            </figure>
+                        </div>
+                        <button class="control-carrusel anterior" type="button" aria-label="Imagen anterior">&#10094;</button>
+                        <button class="control-carrusel siguiente" type="button" aria-label="Imagen siguiente">&#10095;</button>
+                        <div class="indicadores" aria-label="Seleccionar imagen"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="homenajes">
+                <h2>Homenajes</h2>
+                <div class="homenajes-panel">
+                    <button class="descripcion-homenajes" type="button" aria-expanded="false" aria-controls="carrusel-homenajes">
+                        El impacto global de One Piece ha trascendido las pantallas mediante homenajes de gran escala. La ruta de estatuas de bronce de la tripulación en Kumamoto reactivó la región tras el terremoto de 2016; sus personajes llegaron a proyecciones colosales y pantallas urbanas; sus símbolos también aparecen en el deporte de élite y en manifestaciones sociales, donde el Jolly Roger de los Sombrero de Paja se convirtió en un emblema de libertad y resistencia.
+                        <span class="indicacion-carrusel">Haz clic para ver los homenajes en imágenes</span>
+                    </button>
+                    <div id="carrusel-homenajes" class="carrusel" hidden>
+                        <div class="diapositivas">
+                            <figure class="diapositiva activa">
+                                <img src="img/estatuas.jpg" alt="Estatuas de bronce de los personajes de One Piece en Kumamoto">
+                                <figcaption>La ruta de estatuas de bronce de la tripulación en Kumamoto.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/banco.jpg" alt="Barco temático de One Piece junto a un puerto">
+                                <figcaption>Un barco temático dedicado al universo de One Piece.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/globpoluffy.jpg" alt="Proyección gigante de Luffy en una esfera">
+                                <figcaption>Una proyección colosal de Luffy en The Sphere.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/luffy pantallas.jpg" alt="Pantallas de One Piece en Times Square">
+                                <figcaption>One Piece ocupa las pantallas de Times Square.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/deportes.jpg" alt="Referencia a Luffy durante una transmisión deportiva">
+                                <figcaption>Los símbolos de Luffy llegan al mundo del deporte.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/poses de lffy.jpg" alt="Futbolistas imitando una pose de Luffy">
+                                <figcaption>Una pose inspirada en Luffy reproducida por futbolistas.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/protesta one piece.jpg" alt="Manifestación con una bandera de One Piece">
+                                <figcaption>El Jolly Roger como símbolo de libertad y resistencia.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/pared de one piece.webp" alt="Mural urbano dedicado a One Piece">
+                                <figcaption>Un mural urbano celebra a la tripulación de Sombrero de Paja.</figcaption>
+                            </figure>
+                        </div>
+                        <button class="control-carrusel anterior" type="button" aria-label="Imagen anterior">&#10094;</button>
+                        <button class="control-carrusel siguiente" type="button" aria-label="Imagen siguiente">&#10095;</button>
+                        <div class="indicadores" aria-label="Seleccionar imagen"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="frutas-del-diablo">
+                <h2>Frutas del diablo</h2>
+                <div class="frutas-panel">
+                    <button class="descripcion-frutas" type="button" aria-expanded="false" aria-controls="carrusel-frutas">
+                        Las Frutas del Diablo (Akuma no Mi) son frutos místicos que conceden poderes sobrenaturales a quien los come, a cambio de perder para siempre la habilidad de nadar y debilitarse ante el agua marina y el Kairoseki. Se dividen en tres clases principales: Paramecia, como la Gomu Gomu no Mi, la Ope Ope no Mi, la Bara Bara no Mi y la Ito Ito no Mi; Zoan, que permite transformarse en animales; y Logia, como la Mera Mera no Mi, que otorga el control, la creación y la intangibilidad de un elemento natural. Además, algunas frutas alcanzan el Despertar para maximizar sus capacidades.
+                        <span class="indicacion-carrusel">Haz clic para ver ejemplos de Frutas del Diablo</span>
+                    </button>
+                    <div id="carrusel-frutas" class="carrusel" hidden>
+                        <div class="diapositivas">
+                            <figure class="diapositiva activa">
+                                <img src="img/goma goma.jpg" alt="Gomu Gomu no Mi, una fruta de tipo Paramecia">
+
+                                <figcaption>Gomu Gomu no Mi: ejemplo de fruta Paramecia.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/ope ope no mi.jpg" alt="Ope Ope no Mi, una fruta de tipo Paramecia">
+                                <figcaption>Ope Ope no Mi: una Paramecia con poderes especiales.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/bara bara no mi.jpg" alt="Bara Bara no Mi, una fruta de tipo Paramecia">
+                                <figcaption>Bara Bara no Mi: otra fruta de tipo Paramecia.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/ito itono mi.jpg" alt="Ito Ito no Mi, una fruta de tipo Paramecia">
+                                <figcaption>Ito Ito no Mi: una Paramecia que produce y controla hilos.</figcaption>
+                            </figure>
+                            <figure class="diapositiva">
+                                <img src="img/mera mera no mi.jpg" alt="Mera Mera no Mi, una fruta de tipo Logia">
+                                <figcaption>Mera Mera no Mi: ejemplo de fruta Logia.</figcaption>
+                            </figure>
+                        </div>
+                        <button class="control-carrusel anterior" type="button" aria-label="Imagen anterior">&#10094;</button>
+                        <button class="control-carrusel siguiente" type="button" aria-label="Imagen siguiente">&#10095;</button>
+                        <div class="indicadores" aria-label="Seleccionar imagen"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script>
+            function configurarCarrusel(selectorDescripcion, selectorCarrusel) {
+                const descripcion = document.querySelector(selectorDescripcion);
+                const carrusel = document.querySelector(selectorCarrusel);
+                const diapositivas = Array.from(carrusel.querySelectorAll('.diapositiva'));
+                const indicadores = carrusel.querySelector('.indicadores');
+                const anterior = carrusel.querySelector('.anterior');
+                const siguiente = carrusel.querySelector('.siguiente');
+                let diapositivaActual = 0;
+
+                function mostrarDiapositiva(indice) {
+                    diapositivaActual = (indice + diapositivas.length) % diapositivas.length;
+                    diapositivas.forEach((diapositiva, posicion) => {
+                        diapositiva.classList.toggle('activa', posicion === diapositivaActual);
+                    });
+                    indicadores.querySelectorAll('.indicador').forEach((indicador, posicion) => {
+                        indicador.classList.toggle('activo', posicion === diapositivaActual);
+                        indicador.setAttribute('aria-current', posicion === diapositivaActual ? 'true' : 'false');
+                    });
+                }
+
+                diapositivas.forEach((_, indice) => {
+                    const indicador = document.createElement('button');
+                    indicador.className = 'indicador';
+                    indicador.type = 'button';
+                    indicador.setAttribute('aria-label', `Mostrar imagen ${indice + 1}`);
+                    indicador.addEventListener('click', () => mostrarDiapositiva(indice));
+                    indicadores.appendChild(indicador);
+                });
+
+                descripcion.addEventListener('click', () => {
+                    const estaAbierto = descripcion.getAttribute('aria-expanded') === 'true';
+                    descripcion.setAttribute('aria-expanded', String(!estaAbierto));
+                    carrusel.hidden = estaAbierto;
+                });
+
+                anterior.addEventListener('click', () => mostrarDiapositiva(diapositivaActual - 1));
+                siguiente.addEventListener('click', () => mostrarDiapositiva(diapositivaActual + 1));
+                mostrarDiapositiva(0);
+            }
+
+            configurarCarrusel('.descripcion-autor', '#carrusel-autor');
+            configurarCarrusel('.descripcion-carrusel', '#carrusel-momentos');
+            configurarCarrusel('.descripcion-referencias', '#carrusel-referencias');
+            configurarCarrusel('.descripcion-homenajes', '#carrusel-homenajes');
+            configurarCarrusel('.descripcion-frutas', '#carrusel-frutas');
+
+            const menuToggle = document.querySelector('.menu-toggle');
+            const menuNavegacion = document.querySelector('#menu-navegacion');
+            menuToggle.addEventListener('click', () => {
+                const estaAbierto = menuToggle.getAttribute('aria-expanded') === 'true';
+                menuToggle.setAttribute('aria-expanded', String(!estaAbierto));
+                document.querySelector('.sidebar').classList.toggle('sidebar-cerrado', estaAbierto);
+            });
+
+            const authorToggle = document.querySelector('.author-toggle');
+            const authorContent = document.querySelector('#autor-contenido');
+            authorToggle.addEventListener('click', () => {
+                const estaAbierto = authorToggle.getAttribute('aria-expanded') === 'true';
+                authorToggle.setAttribute('aria-expanded', String(!estaAbierto));
+                document.querySelector('#autor').classList.toggle('autor-cerrado', estaAbierto);
+            });
+        </script>
+    </body>
+</html>
